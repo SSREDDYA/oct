@@ -11,7 +11,8 @@ public class repeted_letters_count
 
 
 				 String str= "krish software solutions "; 
-	   
+				 String str2= "Siva Sankar Reddy Ankireddypalle "; 
+				   
 	
 	    //using hashmap to store unique character with integer count
 				 
