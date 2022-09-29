@@ -10,7 +10,7 @@ public class _4__Word_Reverse
 		
 		System.out.println("Original sentance..:-"+s);
 		
-		 String words[]=s.split("\\s");  
+		 String words[]=s.split(" ");  
 		    String reverseWord="";  
 		    for(String w:words){  
 		        StringBuilder sb=new StringBuilder(w);  
@@ -30,22 +30,11 @@ public class _4__Word_Reverse
 				temp = temp + myName.charAt(i);
 			}
 			
-			System.out.println("Reversed String is "+ temp);
+			System.out.println("Reversed String is = "+ temp);
 		    
 			 System.out.println("---------------------------------------:-"+myName);
 			
-			 String myName1 = "KSS Venkata Krishna";
-				
-				 System.out.println("Original myName sentance..:-"+myName);
-				//How to reverse a string
-				
-					for(int i=0; i<myName.length();i++) {
-					
 			
-				
-				System.out.println("Reversed String is "+ myName1.charAt(i));
-			    
-					} 
 		}
 
 	}
